@@ -1,8 +1,8 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 import numpy as np
-from pandas.lib import Timestamp
 import pandas as pd
+from pandas._libs.tslibs.timestamps import Timestamp
 import statsmodels.api as sm
 from statsmodels.nonparametric.smoothers_lowess import lowess as smlowess
 from statsmodels.sandbox.regression.predstd import wls_prediction_std
